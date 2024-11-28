@@ -366,7 +366,7 @@
 .eg-sign-out {
     width: 15px;
     height: 15px;
-    background-image: url('/icon/sign-out-alt.svg');
+    background-image: url('/icon/disk.svg');
     background-size: cover;
 }
 
