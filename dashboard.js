@@ -30,9 +30,9 @@
  });
 
  // Add a click event to toggle the dropdown
-//  document.querySelector('.dropbtn').addEventListener('click', function () {
-//      document.querySelector('.dropdown-content').classList.toggle('show');
-//  });
+ document.querySelector('.dropbtn').addEventListener('click', function () {
+     document.querySelector('.dropdown-content').classList.toggle('show');
+ });
 
  // Close the dropdown if the user clicks outside of it
  window.onclick = function (event) {
