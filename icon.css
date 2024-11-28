@@ -359,7 +359,7 @@
 .eg-setting {
     width: 15px;
     height: 15px;
-    background-image: url('/icon/se');
+    background-image: url('/icon/settings.svg');
     background-size: cover;
 }
 
