@@ -84,6 +84,9 @@
      opacity: 70%;
  }
 
+ .got-header-right {
+     display: flex;
+ }
  .got-profile {
      display: flex;
      align-items: center;
