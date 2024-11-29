@@ -86,7 +86,7 @@
 
  .got-header-right {
     display: flex;
-    gap: 4px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
  }
