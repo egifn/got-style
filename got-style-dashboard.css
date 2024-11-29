@@ -85,7 +85,10 @@
  }
 
  .got-header-right {
-     display: flex;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
  }
 
  .got-profile {
