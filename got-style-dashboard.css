@@ -12,7 +12,7 @@
      background-color: #ffffff;
  }
 
- .header {
+ .got-header {
      position: fixed;
      align-items: center;
      width: 100%;
@@ -24,7 +24,7 @@
      z-index: 2;
  }
 
- .header-logo-frame {
+ .got-header-logo-frame {
      width: 20px;
      height: 20px;
      /* background-color: #ebebeb; */
@@ -39,12 +39,12 @@
      font-weight: bold;
  }
 
- .header-logo img {
+ .got-header-logo img {
      height: 40px;
      margin-left: 6px;
  }
 
- .search {
+ .got-search {
      display: flex;
      flex-grow: 1;
      text-align: center;
@@ -52,24 +52,24 @@
      justify-content: center;
  }
 
- .search input {
+ .got-search input {
      width: 30%;
      padding: 5px;
      border-radius: 4px;
      border: none;
      font-size: 12px;
      text-align: center;
-     background-color: rgba(255, 255, 255, 0.197);
+     background-color: rgba(255, 255, 255, 0.got-197);
      outline: #ffffff;
      color: #d5d5d5;
  }
 
- .search input::placeholder {
+ .got-search input::placeholder {
      color: white;
-     opacity: 0.7;
+     opacity: 0.got-7;
  }
 
- .search-btn {
+ .got-search-btn {
      background-image: linear-gradient(to right, #007bff, #0056b3);
      color: #ffffff;
      padding: 4px 10px;
@@ -80,31 +80,31 @@
      margin: 1px;
  }
 
- .search-btn:hover {
+ .got-search-btn:hover {
      opacity: 70%;
  }
 
- .profile {
+ .got-profile {
      display: flex;
      align-items: center;
  }
 
- .profile-img-wrapper {
+ .got-profile-img-wrapper {
      width: 20px;
      height: 20px;
      border-radius: 50%;
  }
 
- .profile-img-wrapper img {
+ .got-profile-img-wrapper img {
      width: 20px;
      height: 20px;
  }
 
- /* .profile-img-wrapper:hover {
+ /* .got-profile-img-wrapper:hover {
 
     } */
 
- .icon {
+ .got-icon {
      margin-right: 10px;
      /* margin-left: 10px; */
      font-size: 18px;
@@ -113,24 +113,24 @@
      height: auto;
  }
 
- .container {
+ .got-container {
      display: flex;
      /* min-height: 100vh; */
      flex-direction: column;
  }
 
- .logo {
+ .got-logo {
      font-size: 16px;
  }
 
- .user-profile {
+ .got-user-profile {
      display: flex;
      align-items: center;
      font-size: 14px;
  }
 
 
- .user-profile img {
+ .got-user-profile img {
      width: 20px;
      height: 20px;
      border-radius: 50%;
@@ -139,20 +139,20 @@
 
  /* Class of Sidebar */
 
- .sidebar {
+ .got-sidebar {
      border-right: 1px solid #cbcbcb;
      background-color: #f7f8f9;
      color: #000000;
      width: 230px;
      height: 100%;
-     transition: all 0.3s;
+     transition: all 0.got-3s;
      position: fixed;
      top: 36px;
      z-index: 1;
      overflow-y: auto;
  }
 
- .sidebar-logo {
+ .got-sidebar-logo {
      padding: 4px 4px;
      /* background-color: #515151bd; */
      background-color: #1d7ec8;
@@ -168,89 +168,89 @@
      min-width: 20px;
  }
 
- .sidebar.collapsed {
+ .got-sidebar.got-collapsed {
      width: 50px;
  }
 
- .sidebar-header {
+ .got-sidebar-header {
      display: flex;
      padding: 10px;
      border-bottom: 1px solid #cbcbcb;
-     transition: all 0.3s;
+     transition: all 0.got-3s;
      display: flex;
      align-items: stretch;
      height: 43px;
  }
 
- .sidebar-header.collapsed {
+ .got-sidebar-header.got-collapsed {
      justify-content: left;
      width: 100%;
      height: 43px;
  }
 
- .sidebar-toggle {
+ .got-sidebar-toggle {
      display: flex;
      width: 15px;
      align-items: center;
      margin-left: auto;
  }
 
- .sidebar-toggle-btn {
+ .got-sidebar-toggle-btn {
      border: none;
      cursor: pointer;
      color: #3a92eb;
      width: 15px;
  }
 
- .sidebar-toggle-btn:hover {
+ .got-sidebar-toggle-btn:hover {
      opacity: 70%;
  }
 
- .sidebar-toggle.sidebar-toggle-btn.collapsed {
+ .got-sidebar-toggle.got-sidebar-toggle-btn.got-collapsed {
      display: none;
  }
 
- .sidebar-header .icon {
+ .got-sidebar-header .got-icon {
      display: flex;
      /* font-size: 21px; */
      padding: 2px;
      cursor: pointer;
  }
 
- .sidebar-header.collapsed .icon {
+ .got-sidebar-header.got-collapsed .got-icon {
      display: block;
  }
 
- .sidebar-toggle.collapsed {
+ .got-sidebar-toggle.got-collapsed {
      display: none;
  }
 
- .sidebar-header.collapsed p {
+ .got-sidebar-header.got-collapsed p {
      display: none;
  }
 
- .sidebar-menu {
+ .got-sidebar-menu {
      padding: 4px 0;
  }
 
- .main-content {
+ .got-main-content {
      color: rgb(66, 66, 66);
      margin-left: 230px;
      margin-top: 79px;
      padding: 5px 15px;
-     transition: all 0.3s;
+     transition: all 0.got-3s;
  }
 
- .main-content.expanded {
+ .got-main-content.got-expanded {
      margin-left: 50px;
  }
 
-.menu-item {
+.got-menu-item {
     display: flex;
     color: rgb(91, 86, 86);
     padding: 4px 10px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.got-3s;
     white-space: nowrap;
     text-overflow: ellipsis; 
     overflow: hidden; 
@@ -261,30 +261,30 @@
     gap: 10px; 
 }
 
-.menu-item i {
+.got-menu-item i {
     flex-shrink: 0; 
     width: 15px;
     height: 15px;
     margin: 3px;
 }
 
-.menu-item:hover {
+.got-menu-item:hover {
     background-color: #dddddd;
 }
 
-.menu-text {
+.got-menu-text {
     overflow: hidden; 
     text-overflow: ellipsis; 
     white-space: nowrap; 
 }
 
-.collapsed .menu-text {
+.got-collapsed .got-menu-text {
     display: none;
 }
 
  /* Class of Navbar */
 
- .navbar {
+ .got-navbar {
      display: flex;
      align-items: center;
      background-color: #ffffff;
@@ -292,7 +292,7 @@
      color: rgb(91, 86, 86);
      justify-content: space-between;
      position: fixed;
-     transition: all 0.3s;
+     transition: all 0.got-3s;
      font-size: 15px;
      padding: 0px 15px;
      top: 36px;
@@ -302,12 +302,12 @@
      z-index: 1;
  }
 
- .navbar-brand {
+ .got-navbar-brand {
      display: flex;
      align-items: center;
  }
 
- .navbar-button {
+ .got-navbar-button {
      padding: 4px 10px;
      background-color: #ffffff;
      color: rgb(91, 86, 86);
@@ -318,27 +318,27 @@
      border: 1px solid rgb(91, 86, 86);
  }
 
- .navbar-button:hover {
+ .got-navbar-button:hover {
      opacity: 70%;
-     /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);    */
+     /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.got-1);    */
  }
 
- .navbar-title {
+ .got-navbar-title {
      display: flex;
      align-items: center;
  }
 
- .navbar-title i {
+ .got-navbar-title i {
      margin-left: 10px;
  }
 
- .navbar.expanded {
+ .got-navbar.got-expanded {
      display: flex;
      left: 50px;
      align-items: center;
  }
 
- .navbar-toggle-btn {
+ .got-navbar-toggle-btn {
      display: none;
      border: none;
      font-size: 14px;
@@ -347,25 +347,25 @@
      margin-right: 10px;
  }
 
- .navbar-toggle-btn.collapsed {
+ .got-navbar-toggle-btn.got-collapsed {
      display: inline;
      width: 15px;
  }
 
- .navbar-toggle-btn:hover {
+ .got-navbar-toggle-btn:hover {
      opacity: 70%;
  }
 
  /* Class of Card */
 
- .card {
+ .got-card {
      background-color: #ffffff;
      border-radius: 5px;
      border: 1px solid #cdcdcd;
      margin-top: 10px;
  }
 
- .card-header {
+ .got-card-header {
      border-top-left-radius: 5px;
      border-top-right-radius: 5px;
      border-bottom: 1px solid #cdcdcd;
@@ -373,27 +373,27 @@
      padding: 2px 10px;
  }
 
- .card-title {
+ .got-card-title {
      padding: 5px 10px;
  }
 
- .card-content {
+ .got-card-content {
      padding: 5px 10px;
      text-align: justify;
  }
 
- .card-header h2 {
+ .got-card-header h2 {
      color: #2c3e50;
  }
 
- .card-body {
+ .got-card-body {
      padding: 10px;
      border-bottom-left-radius: 5px;
      border-bottom-right-radius: 5px;
      background-color: #ffffff;
  }
 
- .card-footer {
+ .got-card-footer {
      padding: 2px 5px;
      border-bottom-left-radius: 5px;
      border-bottom-right-radius: 5px;
@@ -402,32 +402,32 @@
      text-align: right;
  }
 
- .card:hover {
-     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+ .got-card:hover {
+     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.got-1);
  }
 
- .button-card {
+ .got-button-card {
      background-color: #3498db;
      color: white;
      border: none;
      padding: 5px 10px;
      border-radius: 3px;
      cursor: pointer;
-     transition: background-color 0.3s;
+     transition: background-color 0.got-3s;
  }
 
- .button-card:hover {
+ .got-button-card:hover {
      opacity: 70%;
  }
 
  /* CLASS DROPDOWN */
- .dropdown {
+ .got-dropdown {
      position: relative;
      display: inline-block;
      
  }
 
- .dropbtn {
+ .got-dropbtn {
      color: white;
      padding: 10px;
      font-size: 14px;
@@ -435,7 +435,7 @@
      cursor: pointer;
  }
 
- .hover-dropdown img {
+ .got-hover-dropdown img {
      cursor: pointer;
      width: 20px;
      height: 20px;
@@ -443,20 +443,20 @@
      overflow: hidden;
  }
 
- .dropdown-content {
+ .got-dropdown-content {
      display: none;
      position: absolute;
      background-color: #f9f9f9;
      min-width: 200px;
      border-radius: 3px;
-     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.got-2);
      z-index: 2;
      overflow: auto;
      right: 10px;
      top: 7px;
  }
 
- .dropdown-content a {
+ .got-dropdown-content a {
      color: black;
      font-size: small;
      padding: 7px 15px;
@@ -465,83 +465,83 @@
      align-items: center;
  }
 
- .dropdown-content i {
+ .got-dropdown-content i {
     margin-right: 10px; 
 }
 
- .dropdown-content img {
+ .got-dropdown-content img {
      width: 15px;
      height: 15px;
      margin-right: 10px;
      border-radius: 0;
  }
 
- .dropdown-content a:hover {
+ .got-dropdown-content a:hover {
      background-color: #f1f1f1;
  }
 
  /* Hover Dropdown */
- .hover-dropdown:hover .dropdown-content {
+ .got-hover-dropdown:hover .got-dropdown-content {
      display: block;
  }
 
  /* Click Dropdown */
- .click-dropdown .dropdown-content.show {
+ .got-click-dropdown .got-dropdown-content.got-show {
      display: block;
  }
 
  /* Animated Dropdown */
- .animated-dropdown .dropdown-content {
-     transition: all 0.5s ease-in-out;
+ .got-animated-dropdown .got-dropdown-content {
+     transition: all 0.got-5s ease-in-out;
      opacity: 0;
      transform: translateY(-20px);
  }
 
- .animated-dropdown .dropdown-content.show {
+ .got-animated-dropdown .got-dropdown-content.got-show {
      opacity: 1;
      transform: translateY(0);
  }
 
  /* Toasts */
- .toast {
+ .got-toast {
      position: fixed;
      min-width: 300px;
      background-color: #ffffff;
      color: #000000;
      border-radius: 5px;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.got-2);
      opacity: 0;
      visibility: hidden;
      transform: translateY(100%);
-     transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+     transition: opacity 0.got-3s, visibility 0.got-3s, transform 0.got-3s;
      z-index: 1050;
  }
 
- .toast.show {
+ .got-toast.got-show {
      opacity: 1;
      visibility: visible;
      transform: translateY(0);
  }
 
- .toast-header {
+ .got-toast-header {
      display: flex;
      justify-content: space-between;
      align-items: center;
      padding: 10px;
-     border-bottom: 1px solid rgba(3, 3, 3, 0.1);
+     border-bottom: 1px solid rgba(3, 3, 3, 0.got-1);
  }
 
- .toast-title {
+ .got-toast-title {
      font-size: 14px;
      font-weight: bold;
  }
 
- .toast-body {
+ .got-toast-body {
      padding: 10px;
  }
 
  /* Close Button */
- .toast .close {
+ .got-toast .got-close {
      background: none;
      border: none;
      color: #000000;
@@ -549,128 +549,128 @@
      cursor: pointer;
  }
 
- .toast .close:hover {
+ .got-toast .got-close:hover {
      color: #aaa;
  }
 
  /* Positions */
- .top-right {
+ .got-top-right {
      top: 20px;
      right: 20px;
  }
 
- .bottom-right {
+ .got-bottom-right {
      bottom: 20px;
      right: 20px;
  }
 
  /* Positions */
- .top-right {
+ .got-top-right {
      top: 20px;
      right: 20px;
  }
 
- .bottom-right {
+ .got-bottom-right {
      bottom: 20px;
      right: 20px;
  }
 
 
  /* card-status */
- .crad-status {
+ .got-crad-status {
      display: flex;
      padding: 10px 0px;
      gap: 20px;
      margin-top: 10px;
  }
 
- .card-stat-grid {
+ .got-card-stat-grid {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
      gap: 10px;
      padding: 5px 0px;
  }
 
- .card-status-item {
+ .got-card-status-item {
      background: white;
      padding: 15px 20px;
      border-radius: 5px;
-     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+     box-shadow: rgba(0, 0, 0, 0.got-12) 0px 1px 3px, rgba(0, 0, 0, 0.got-24) 0px 1px 2px;
      text-align: left;
-     transition: transform 0.3s ease;
+     transition: transform 0.got-3s ease;
  }
 
- .card-status-item:hover {
+ .got-card-status-item:hover {
      transform: translateY(-5px);
  }
 
- .card-status-content {
+ .got-card-status-content {
      border-radius: 10px;
      text-align: justify;
      justify-content: space-between;
      align-items: center;
  }
 
- .icon {
+ .got-icon {
      width: 40px;
      height: 40px;
      margin: 0 auto 10px;
  }
 
- .calendar-icon {
+ .got-calendar-icon {
      background-color: #6c63ff;
  }
 
- .cart-icon {
+ .got-cart-icon {
      background-color: #6fdc6f;
  }
 
- .user-icon {
+ .got-user-icon {
      background-color: #63b3ff;
  }
 
- .chat-icon {
+ .got-chat-icon {
      background-color: #ff6b6b;
  }
 
- .icon::before {
+ .got-icon::before {
      content: '';
      display: block;
      width: 100%;
      height: 100%;
-     background: url('https://via.placeholder.com/40') no-repeat center;
+     background: url('https://via.got-placeholder.got-com/40') no-repeat center;
      background-size: contain;
  }
 
- .card-status-content h2 {
-     font-size: 1.2rem;
+ .got-card-status-content h2 {
+     font-size: 1.got-2rem;
      margin: 0;
      color: #333;
  }
 
- .stat-value {
+ .got-stat-value {
      font-size: 2rem;
      font-weight: bold;
  }
 
- .status-change {
-     font-size: 0.9rem;
+ .got-status-change {
+     font-size: 0.got-9rem;
  }
 
- .positive {
+ .got-positive {
      color: green;
  }
 
- .negative {
+ .got-negative {
      color: red;
  }
 
  /* News */
- .news-container {
+ .got-news-container {
      margin: 0 auto;
  }
 
- .news-item {
+ .got-news-item {
      display: flex;
      align-items: center;
      border-radius: 5px;
@@ -680,42 +680,42 @@
      margin-bottom: 5px;
  }
 
- .news-item:hover {
+ .got-news-item:hover {
      opacity: 75%;
      cursor: pointer;
  }
 
- .news-image {
+ .got-news-image {
      width: 120px;
      height: 80px;
      object-fit: cover;
      margin-right: 15px;
  }
 
- .news-content {
+ .got-news-content {
      flex: 1;
  }
 
- .news-category {
+ .got-news-category {
      font-size: 12px;
      color: #ff6600;
      text-transform: uppercase;
      margin-bottom: 5px;
  }
 
- .news-title {
+ .got-news-title {
      font-size: 16px;
      font-weight: bold;
      margin-bottom: 5px;
      color: #333;
  }
 
- .news-meta {
+ .got-news-meta {
      font-size: 12px;
      color: #888;
  }
 
- .news-tag {
+ .got-news-tag {
      display: inline-block;
      background-color: #007bff;
      color: white;
@@ -728,56 +728,56 @@
 
  /* Media Queries */
  @media (max-width: 768px) {
-     .search-bar {
+     .got-search-bar {
          width: 200px;
      }
 
-     .sidebar {
+     .got-sidebar {
          width: 200px;
      }
 
-     .sidebar.collapsed {
+     .got-sidebar.got-collapsed {
          width: 50px;
      }
 
-     .navbar {
+     .got-navbar {
          left: 200px;
      }
 
-     .navbar.expanded {
+     .got-navbar.got-expanded {
          left: 50px;
      }
 
-     .main-content {
+     .got-main-content {
          margin-left: 200px;
      }
 
-     .main-content.expanded {
+     .got-main-content.got-expanded {
          margin-left: 50px;
      }
  }
 
  @media (max-width: 576px) {
 
-     .sidebar {
+     .got-sidebar {
          width: 250px;
      }
 
-     .sidebar.collapsed {
+     .got-sidebar.got-collapsed {
          width: 0px;
      }
 
-     .top-header {
+     .got-top-header {
          flex-direction: column;
          height: auto;
      }
 
-     .search-bar {
+     .got-search-bar {
          width: 100%;
          margin-top: 10px;
      }
 
-     .navbar {
+     .got-navbar {
          display: flex;
          left: 0;
          top: 37px;
@@ -788,7 +788,7 @@
          /* padding: 10px 20px; */
      }
 
-     .navbar-toggle-btn {
+     .got-navbar-toggle-btn {
          display: flex;
          background: none;
          border: none;
@@ -799,15 +799,15 @@
          width: 15px;
      }
 
-     .navbar.expanded {
+     .got-navbar.got-expanded {
          left: 0px;
      }
 
-     .main-content.expanded {
+     .got-main-content.got-expanded {
          margin-left: 0px;
      }
 
-     .main-content {
+     .got-main-content {
          margin-left: 0;
          margin-top: 80px;
      }
@@ -815,7 +815,7 @@
 
  @media (max-width: 400px) {
 
-     .card {
+     .got-card {
          background-color: #ffffff;
          border-radius: 8px;
          /* padding: 20px;  */
@@ -823,34 +823,34 @@
          border: 1px solid #cdcdcd;
      }
 
-     .card:hover {
-         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+     .got-card:hover {
+         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.got-1);
      }
 
-     .card h2 {
+     .got-card h2 {
          margin-bottom: 5px;
          color: #2c3e50;
      }
 
-     .sidebar {
+     .got-sidebar {
          width: 100%;
      }
 
-     .sidebar.collapsed {
+     .got-sidebar.got-collapsed {
          width: 0px;
      }
 
-     .top-header {
+     .got-top-header {
          flex-direction: column;
          height: auto;
      }
 
-     .search-bar {
+     .got-search-bar {
          width: 100%;
          margin-top: 10px;
      }
 
-     .navbar {
+     .got-navbar {
          display: flex;
          left: 0;
          top: 37px;
@@ -859,7 +859,7 @@
          align-items: center;
      }
 
-     .navbar-toggle-btn {
+     .got-navbar-toggle-btn {
          display: flex;
          background: none;
          border: none;
@@ -871,15 +871,15 @@
 
      }
 
-     .navbar.expanded {
+     .got-navbar.got-expanded {
          left: 0px;
      }
 
-     .main-content.expanded {
+     .got-main-content.got-expanded {
          margin-left: 0px;
      }
 
-     .main-content {
+     .got-main-content {
          margin-left: 0;
          margin-top: 80px;
      }
