@@ -154,7 +154,7 @@
      height: 100%;
      transition: all 0.got-3s;
      position: fixed;
-     top: 36px;
+     top: 40px;
      z-index: 1;
      overflow-y: auto;
  }
@@ -302,7 +302,7 @@
      transition: all 0.got-3s;
      font-size: 15px;
      padding: 0px 15px;
-     top: 36px;
+     top: 40px;
      left: 230px;
      right: 0;
      height: 43px;
