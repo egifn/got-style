@@ -431,6 +431,7 @@
 
  /* CLASS DROPDOWN */
  .got-dropdown {
+    top: -2px;
      position: relative;
      display: inline-block;
  }
