@@ -23,6 +23,7 @@
      color: #ecf0f1;
      z-index: 2;
      top: 36px;
+     align-items: stretch;
  }
 
  .got-header-logo-frame {
