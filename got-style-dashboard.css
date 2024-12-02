@@ -17,7 +17,6 @@
      align-items: center;
      width: 100%;
      display: flex;
-     /* background-color: #515151bd; */
      background-color: #395772;
      padding: 5px 14px;
      color: #ecf0f1;
@@ -29,7 +28,6 @@
  .got-header-logo-frame {
      width: 20px;
      height: 20px;
-     /* background-color: #ebebeb; */
      background-color: #1d7ec8;
      color: #ffffff;
      border-radius: 4px;
@@ -87,10 +85,10 @@
  }
 
  .got-header-right {
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-    align-items: center;
+     display: flex;
+     gap: 5px;
+     justify-content: center;
+     align-items: center;
  }
 
  .got-profile {
@@ -124,7 +122,6 @@
 
  .got-container {
      display: flex;
-     /* min-height: 100vh; */
      flex-direction: column;
  }
 
@@ -147,7 +144,6 @@
  }
 
  /* Class of Sidebar */
-
  .got-sidebar {
      border-right: 1px solid #cbcbcb;
      background-color: #f7f8f9;
@@ -163,7 +159,6 @@
 
  .got-sidebar-logo {
      padding: 4px 4px;
-     /* background-color: #515151bd; */
      background-color: #1d7ec8;
      color: #ffffff;
      border-radius: 4px;
